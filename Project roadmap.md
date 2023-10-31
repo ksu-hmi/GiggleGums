@@ -1,5 +1,5 @@
 # Sprint 1
-- [ ] Choose a project topic.
+- [ x] Choose a project topic.
 - [ ] Create a GitHub account and become a member of the KSU-HMI organization.
 - [ ] Take control of a code repository within the organization.
 - [ ] Make edits to a readme.md file in the repository and commit those changes.
