@@ -9,5 +9,6 @@ The dental industry, a significant branch of healthcare, often doesn't receive t
 
 # How it Works
 This application is designed for kids to enjoy while they wait for their dentist appointment check-in. The app features a range of difficulty levels, starting from easy and progressing to more challenging, all focused on fundamental oral hygiene questions. It serves as an engaging activity to keep them occupied while the dental office staff completes the check-in procedure. In case a question is answered incorrectly, the app provides feedback. As children advance to higher levels, we've included hints to assist them in tackling the more difficult questions.
+
 Team Members: Dipti Paldhikar, Divya Mamtora, Saiyida Jabeen, Khushbuben Patel
 
