@@ -1,8 +1,19 @@
 # Sprint 1
+- [ ] Choose a project topic.
+- [ ] Create a GitHub account and become a member of the KSU-HMI organization.
+- [ ] Take control of a code repository within the organization.
+- [ ] Make edits to a readme.md file in the repository and commit those changes.
+- [ ] Investigate pre-existing Python code that is relevant to the project (as mentioned below).
+- [ ] https://github.com/achudnova/projects-yt/tree/main/QuizApp
+- [ ] GitHub - ksu-hmi/Anatomy-Game: A simple trivia game covering the 12 systems of the body and its functions.
+- [ ] Make essential project modifications and submit the changes.
+- [ ] Review and execute the code
+
 # Sprint 2
 - [ ] Making necessary updates with commit messages within the designated organization
 - [ ] Commit a minimum of 6 code changes of significant size
 - [ ] Updating Project roadmap as our tasks are completed
+
 # Sprint 3
 - [ ] Update and optimize your project code, ensuring it meets the requirements, thoroughly test it for any issues or bugs, and document changes and improvements in project documentation for clarity and maintainability.
 - [ ] Create a PowerPoint slide with essential details in a clear and visually appealing format then upload it to your GitHub repository within a designated directory, commit the changes, and push them to make it accessible to others.
