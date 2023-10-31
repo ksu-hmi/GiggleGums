@@ -1,10 +1,10 @@
-# What is Tooth-Fairy project?
+# What is 🪥🦷 Tooth-Fairy🪥🦷 project?
 Tooth-Fairy is an innovative game designed to educate and empower kids (pedodontic patients) about oral hygiene and dental facts. This interactive and engaging game aims to make learning about dental care fun and accessible, while promoting good oral health habits. 
 
 # Why the project is useful?
 
 
-# Tooth-Fairy App Goal
+# Tooth-Fairy App Goal 
 The dental industry, a significant branch of healthcare, often doesn't receive the recognition and resources it truly deserves in terms of the benefits it can offer to patients. While there are numerous online resources available for basic oral hygiene quizzes, the Tooth Fairy app distinguishes itself by providing an interactive and source of comprehensive Oral care knowledge. This application is specifically designed to educate children about oral hygiene, offering a unique and engaging experience. By reducing the amount of time dental assistants spend reassuring patients and reducing their fear, this software is anticipated to simplify the care of paediatric patients at the dental office. The management of such patients would be improved as a result of this efficiency.
 
 # How it Works
