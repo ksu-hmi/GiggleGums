@@ -1,6 +1,6 @@
 # Sprint 1
 # Sprint 2
-- Making necessary updates with commit messages within the designated organization
+[] - Making necessary updates with commit messages within the designated organization
 - Commit a minimum of 6 code changes of significant size
 - Updating Project roadmap as our tasks are completed
 # Sprint 3
