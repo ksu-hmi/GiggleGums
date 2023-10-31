@@ -6,7 +6,6 @@
 - [x] Investigate pre-existing Python code that is relevant to the project (as mentioned below).
 - [ ] https://github.com/achudnova/projects-yt/tree/main/QuizApp
 - [ ] https://github.com/ksu-hmi/Anatomy-Game 
-- [ ] GitHub - ksu-hmi/Anatomy-Game: A simple trivia game covering the 12 systems of the body and its functions.
 - [ ] Make essential project modifications and submit the changes.
 - [ ] Review and execute the code
 
