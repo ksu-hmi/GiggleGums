@@ -1,9 +1,9 @@
 # Sprint 1
-- [ x] Choose a project topic.
-- [ ] Create a GitHub account and become a member of the KSU-HMI organization.
-- [ ] Take control of a code repository within the organization.
-- [ ] Make edits to a readme.md file in the repository and commit those changes.
-- [ ] Investigate pre-existing Python code that is relevant to the project (as mentioned below).
+- [x] Choose a project topic.
+- [x] Create a GitHub account and become a member of the KSU-HMI organization.
+- [x] Take control of a code repository within the organization.
+- [x] Make edits to a readme.md file in the repository and commit those changes.
+- [x] Investigate pre-existing Python code that is relevant to the project (as mentioned below).
 - [ ] https://github.com/achudnova/projects-yt/tree/main/QuizApp
 - [ ] GitHub - ksu-hmi/Anatomy-Game: A simple trivia game covering the 12 systems of the body and its functions.
 - [ ] Make essential project modifications and submit the changes.
