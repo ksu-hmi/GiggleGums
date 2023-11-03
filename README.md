@@ -10,6 +10,13 @@ The dental industry, a significant branch of healthcare, often doesn't receive t
 GiggleGums application is designed for kids to stay engaged while they wait for their dentist appointment check-in. The app features quizzes related to oral hygiene practices with a range of difficulty levels, starting from easy and progressing to more challenging levels. It serves as an interesting and fun activity to keep them occupied while the dental office staff completes the check-in procedure. In case a question is answered incorrectly, the app provides feedback. As children advance to higher levels, we've included hints to assist them in tackling the more difficult questions. The app instructs kids on the appropriate procedures to follow while seeing a dentist in addition to increasing awareness of oral cleanliness. By mentally preparing them for prospective procedures, this preparation helps reduce anxiety and makes it easier for dental practitioners to provide treatment. Kids' comprehension of the quizzes is made simpler and more memorable by the inclusion of graphic answers. We are aware that visual aids help with comprehension and memory and hence we included a graphical representation of the quiz options.
 
 # Technology used
+Programming Language:
+- Python (Pygame or Kivy for 2D games)
+Python is the primary programming language used for developing the GiggleGums application. Python is known for its simplicity and versatility, making it an ideal choice for this educational and interactive project.
+    
+Development Framework:
+- Flask
+Flask is a lightweight web framework for Python that was used to build the web application portion of GiggleGums. It provides the necessary tools for creating web applications and APIs.
 
 
 
