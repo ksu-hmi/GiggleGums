@@ -4,7 +4,7 @@
 - [x] Take control of a code repository within the organization.
 - [x] Make edits to a README.md file in the repository and commit those changes.
 - [x] Investigate pre-existing Python code that is relevant to the project (as mentioned below).
-- [ ] https://github.com/achudnova/projects-yt/tree/main/QuizApp
+- [x] https://github.com/achudnova/projects-yt/tree/main/QuizApp
 - [ ] https://github.com/ksu-hmi/Anatomy-Game 
 - [ ] Make essential project modifications and submit the changes.
 - [ ] Review and execute the code
