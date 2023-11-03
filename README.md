@@ -37,8 +37,10 @@ Graphics and Visual Aids (Multimedia Integration):
 - Adobe Animate (for interactive multimedia)
 - Audio editing software (for sound and music)
 
+
 # License
-The class is licensed under the MIT License:
+
+This project is licensed under the MIT License - see the [LICENSE](MIT) file for details.
 
  
 Copyright (c) 201-2023 GiggleGums Team:
