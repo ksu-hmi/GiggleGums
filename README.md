@@ -61,7 +61,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 # Contributors
- - [Dipti Paldhikar]([url](https://github.com/DPal83))
+ - [Dipti Paldhikar]([url](https://github.com/dmamtora25))
  - [Divya Mamtora]([url](https://github.com/dmamtora25))
  - [Saiyida Jabeen]([url](https://github.com/sjabeen7))
  - [Khushbuben Patel]([url](https://github.com/khushbubenpatel18))
