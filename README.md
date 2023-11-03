@@ -40,7 +40,7 @@ Graphics and Visual Aids (Multimedia Integration):
 
 # License
 
-This project is licensed under the MIT License - see the [LICENSE](MIT) file for details.
+This project is licensed under the MIT License - see the [MIT](MIT) file for details.
 
  
 Copyright (c) 201-2023 GiggleGums Team:
