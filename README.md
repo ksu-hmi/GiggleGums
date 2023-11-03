@@ -40,7 +40,7 @@ Graphics and Visual Aids (Multimedia Integration):
 
 # License
 
-This project is licensed under the MIT License - see the ([MIT](https://github.com/ksu-hmi/GiggleGums/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [MIT](https://github.com/ksu-hmi/GiggleGums/blob/main/LICENSE) file for details.
 
  
 Copyright (c) 201-2023 GiggleGums Team:
