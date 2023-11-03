@@ -18,7 +18,7 @@ Development Framework:
 
 Front-End Technologies:
 - HTML5: Standard web technologies for structuring and styling the user interface of the application.
-- Tkinter: Tkinter is a Python library for creating graphical user interfaces (GUIs). It is utilized for building interactive and user-friendly desktop components of the GiggleGums application.
+- Tkinter: A Python library for creating graphical user interfaces (GUIs). Tkinter is utilized for building interactive and user-friendly desktop components of the GiggleGums application.
 
 Graphics and Visual Aids (Multimedia Integration):
 - Adobe Animate (for interactive multimedia)
