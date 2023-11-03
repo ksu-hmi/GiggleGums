@@ -11,12 +11,10 @@ GiggleGums application is designed for kids to stay engaged while they wait for 
 
 # Technology Used
 Programming Language:
-- Python (Pygame or Kivy for 2D games)
-Python is the primary programming language used for developing the GiggleGums application. Python is known for its simplicity and versatility, making it an ideal choice for this educational and interactive project.
+- Python (Pygame or Kivy for 2D games): The primary programming language used for developing the GiggleGums application. Python is known for its simplicity and versatility, making it an ideal choice for this educational and interactive project.
     
 Development Framework:
-- Flask
-Flask is a lightweight web framework for Python that was used to build the web application portion of GiggleGums. It provides the necessary tools for creating web applications and APIs.
+- Flask: A lightweight web framework for Python that was used to build the web application portion of GiggleGums. It provides the necessary tools for creating web applications and APIs.
 
 Front-End Technologies:
 - HTML5: Standard web technologies for structuring and styling the user interface of the application.
