@@ -6,7 +6,7 @@
 - [x] Investigate pre-existing Python code that is relevant to the project (as mentioned below).
 - [x] https://github.com/achudnova/projects-yt/tree/main/QuizApp
 - [x] https://github.com/ksu-hmi/Anatomy-Game 
-- [ ] Make essential project modifications and submit the changes.
+- [x] Make essential project modifications and submit the changes.
 - [ ] Review and execute the code
 
 # Sprint 2
