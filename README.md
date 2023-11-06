@@ -1,6 +1,14 @@
 # 🪥🦷 Introduction🪥🦷
 GiggleGums is an innovative game designed to educate and empower kids (pediatric patients) about oral hygiene and dental facts. This interactive and engaging game aims to make learning about dental care fun and accessible while promoting good oral hygiene habits. 
 
+[![GitHub release](https://img.shields.io/github/release/akashgiricse/lets-quiz.svg)](https://img.shields.io/bower/vpre/bootstrap.svg)
+[![GitHub issues](https://img.shields.io/github/issues/akashgiricse/lets-quiz.svg)](https://github.com/akashgiricse/lets-quiz/issues)
+[![GitHub forks](https://img.shields.io/github/forks/akashgiricse/lets-quiz.svg)](https://github.com/akashgiricse/lets-quiz/network)
+[![GitHub stars](https://img.shields.io/github/stars/akashgiricse/lets-quiz.svg)](https://github.com/akashgiricse/lets-quiz/stargazers)
+[![GitHub license](https://img.shields.io/github/license/akashgiricse/lets-quiz.svg)](https://github.com/akashgiricse/lets-quiz/blob/master/LICENSE)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+
 # GiggleGums App Goal 
 The dental industry, a significant branch of healthcare, often doesn't receive the recognition and resources it truly deserves in terms of the benefits it can offer to patients. While there are numerous online resources available for basic oral hygiene quizzes, the GiggleGums app distinguishes itself by providing an interactive source of comprehensive oral care knowledge. This application is specifically designed to educate young children about oral hygiene, offering a unique and engaging experience. By reducing the amount of time dental assistants spend reassuring patients and reducing their fear, this software is anticipated to simplify the care of pediatric patients at the dental office. The management of such patients would be improved as a result of this efficiency.
 
