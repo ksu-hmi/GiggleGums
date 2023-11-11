@@ -1,0 +1,70 @@
+import tkinter as tk
+import os
+from flask import Flask, render_template, request
+
+app = Flask(__name__)
+
+class CountdownTimer:
+    def __init__(self, root):
+        # Initialize the Tkinter window
+        self.root = root
+        self.root.title("Customizable Countdown Timer")
+        self.root.geometry("400x200")
+
+        # Create a label to display the timer
+        self.label = tk.Label(root, text="00:00:00", font=("Helvetica", 48), fg="red")
+        self.label.pack(pady=20)
+
+        # Create an entry for inputting the countdown time
+        self.entry = tk.Entry(root, font=("Helvetica", 24))
+        self.entry.pack(pady=10)
+
+        # Create a start button
+        self.start_button = tk.Button(root, text="Start", command=self.start_timer, bg="green", fg="white")
+        self.start_button.pack()
+
+
+    def start_timer(self, days):
+        # Calculate the total seconds for the timer
+        total_seconds = days * 24 * 60 * 60
+
+        if not self.is_running:
+            self.time_left = total_seconds
+            if self.time_left > 0:
+                self.is_running = True
+                self.update_timer()
+
+    def update_timer(self):
+        if self.time_left > 0 and self.is_running:
+            # Update the timer as per days, hours, minutes, seconds
+            days = self.time_left // (24 * 60 * 60)
+            hours = (self.time_left % (24 * 60 * 60)) // 3600
+            minutes = (self.time_left % 3600) // 60
+            seconds = self.time_left % 60
+            self.label.config(text=self.format_time(days, hours, minutes, seconds))
+            self.time_left -= 1
+            self.root.after(1000, self.update_timer())
+            self.play_tick_sound()
+
+        elif self.time_left == 0 and self.is_running:
+            self.is_running = False
+            self.label.config(text="Time's up!", fg="red")
+            self.play_timeup_sound()
+            self.blink_label()
+
+    def format_time(self, days, hours, minutes, seconds):
+        return f"{days} days {hours:02d}:{minutes:02d}:{seconds:02d}"
+
+    # Other methods remain the same
+
+@app.route('/', methods=['GET', 'POST'])
+def countdown_page():
+    if request.method == 'POST':
+        days = int(request.form['days'])
+        timer.start_timer(days)
+    return render_template('countdown.html')
+
+if __name__ == '__main__':
+    root = tk.Tk()  # Create a Tkinter window
+    timer = CountdownTimer(root)  # Pass the window to the CountdownTimer constructor
+    app.run(debug=True)
