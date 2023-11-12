@@ -1,5 +1,5 @@
 # 🪥🦷 Introduction🪥🦷
-<img src= "./images/MicrosoftTeams-image (10).png" width=300 height=300 />
+<img src= "./images/MicrosoftTeams-image (10).png" width=300 height=256 />
 
 
 GiggleGums is an innovative game designed to educate and empower kids (pediatric patients) about oral hygiene and dental facts. This interactive and engaging game aims to make learning about dental care fun and accessible while promoting good oral hygiene habits. 
