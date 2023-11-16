@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox, ttk
 from ttkbootstrap import Style
+from PIL import Image
 
 
 quiz_data = [
@@ -31,18 +32,18 @@ quiz_data = [
     },
     {
         "question": " Which picture shows a tooth with a cavity?",
-        "choices": ["China", "Japan", "South Korea", "Thailand"],
-        "answer": "Japan"
+        "choices": ["yellow tooth", "white tooth", "brown tooth", "golden tooth"],
+        "answer": "brown tooth"
     },
     {
         "question": "Which picture shows a toothbrushing technique?",
-        "choices": ["China", "Japan", "South Korea", "Thailand"],
-        "answer": "Japan"
+        "choices": ["up and down", "round and round", "back and forth", "zigzag"],
+        "answer": "round and round"
     },
     {
         "question": "Which picture represents a dental check-up?",
-        "choices": ["China", "Japan", "South Korea", "Thailand"],
-        "answer": "Japan"
+        "choices": ["pic1", "pic2", "pic3"],
+        "answer": "pic3"
     },
     {
         "question": "What should you avoid doing with your teeth?",
