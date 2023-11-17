@@ -227,27 +227,30 @@ if __name__ == "__main__":
     },
     {
         "question": "Why is it important to be honest with the dentist?",
-        "choices": ["To tell funny stories",
-                     "To keep secrets",
-                     "So the dentist can help you better",
-                     "None of the above"],
-        "answer": "So the dentist can help you better"
+        "choices": [
+                     {"To tell funny stories", "image_path": r"./images/brush.jpeg", "is_correct": False},
+                     {"To keep secrets","image_path": r"./images/brush.jpeg", "is_correct": False},
+                     {"So the dentist can help you better", "image_path": r"./images/brush.jpeg", "is_correct": True},
+                     {"None of the above", "image_path": r"./images/brush.jpeg", "is_correct": False}],
+     
     },
     {
         "question": "How should you behave in the dental clinic's restroom?",
         "choices": [
-            "Flush the toilet and wash your hands", 
-            "Skip washing hands",
-            "Make a mess",
-            "Argue with dentist"],
-        "answer": "Flush the toilet and wash your hands"
+            {"Flush the toilet and wash your hands","image_path": r"./images/brush.jpeg", "is_correct": True}, 
+            {"Skip washing hands","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"Make a mess","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"Argue with dentist","image_path": r"./images/brush.jpeg", "is_correct": False}],
+    
     },
     {
         "question": "How should you brush your teeth before going to the dentist?",
-        "choices": ["Quickly and without toothpaste",
-                     " Thoroughly with toothpaste",
-                     "No need to brush your teeth before dental visit"],
-        "answer": " Thoroughly with toothpaste"
+        "choices": [
+        { "Quickly and without toothpaste","image_path": r"./images/brush.jpeg", "is_correct": False},
+        { " Thoroughly with toothpaste","image_path": r"./images/brush.jpeg", "is_correct": True},
+        {"No need to brush your teeth before dental visit", "image_path": r"./images/brush.jpeg", "is_correct": False},
+        {"None of the above", "image_path": r"./images/brush.jpeg", "is_correct": False}],
+        
     },
     # Add more questions here
 ]
