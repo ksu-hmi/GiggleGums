@@ -30,7 +30,7 @@ class QuizApp:
             self.choice_buttons = []
             for i, choice in enumerate(choices):
                 image_path = f"{choice}.png"  # Assuming you have images named after choices
-                image = Image.open(image_path)
+                image = Image.open(/Users/diptipaldhikar/Documents/GitHub/GiggleGums/images/brush.jpeg)
                 image = image.resize((50, 50), Image.ANTIALIAS)
                 photo = ImageTk.PhotoImage(image)
 
