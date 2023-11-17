@@ -99,5 +99,5 @@ quiz_data = [
         "choices": ["Quickly and without toothpaste", " Thoroughly with toothpaste","No need to brush your teeth before dental visit"],
         "answer": " Thoroughly with toothpaste"
     },
-    # Add more questions here
 ]
+    # Add more questions here
