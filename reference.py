@@ -123,27 +123,27 @@ if __name__ == "__main__":
         {
         "question": " What should you use to protect your teeth when playing sports?",
         "choices": [
-            {"helmet","image_path": r"./images/Helmet.jpg", "is_correct": False},
-            {"mouth gaurd","image_path": r"./images/brush.jpeg", "is_correct": True},
-            {"bubble gum","image_path": r"./images/brush.jpeg", "is_correct": False}
-            {"mask","image_path": r"./images/brush.jpeg", "is_correct": False}],
+               {"helmet","image_path": r"./images/Helmet.jpg", "is_correct": False},
+               {"mouth gaurd","image_path": r"./images/brush.jpeg", "is_correct": True},
+               {"bubble gum","image_path": r"./images/brush.jpeg", "is_correct": False}
+               {"mask","image_path": r"./images/brush.jpeg", "is_correct": False}],
     },
     {
         "question": "Which picture represents a healthy snack for your teeth?",
         "choices": [
-            {"apple","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"sandwich","image_path": r"./images/brush.jpeg", "is_correct": True},
-            {"candy","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"gummy bear","image_path": r"./images/brush.jpeg", "is_correct": False}],
+               {"apple","image_path": r"./images/brush.jpeg", "is_correct": False},
+               {"sandwich","image_path": r"./images/brush.jpeg", "is_correct": True},
+               {"candy","image_path": r"./images/brush.jpeg", "is_correct": False},
+               {"gummy bear","image_path": r"./images/brush.jpeg", "is_correct": False}],
       
     },
     {
         "question": "Which picture represents a healthy drink for your teeth?",
         "choices": [
-            {"water","image_path": r"./images/brush.jpeg", "is_correct": True}, 
-            {"milk", "image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"soda", "image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"sugary juice","image_path": r"./images/brush.jpeg", "is_correct": False}],
+             {"water","image_path": r"./images/brush.jpeg", "is_correct": True}, 
+             {"milk", "image_path": r"./images/brush.jpeg", "is_correct": False},
+             {"soda", "image_path": r"./images/brush.jpeg", "is_correct": False},
+             {"sugary juice","image_path": r"./images/brush.jpeg", "is_correct": False}],
         
     },
       
@@ -177,10 +177,10 @@ if __name__ == "__main__":
     {
         "question": "How should you behave while sitting in the dental chair?",
         "choices": [
-                    {"Wiggle and squirm","image_path": r"./images/brush.jpeg", "is_correct": False},
-                    {"Sit still and listen to the dentist", "image_path": r"./images/brush.jpeg", "is_correct": True},
-                    {"Jump up and down","image_path": r"./images/brush.jpeg", "is_correct": False},
-                    {"Shout and walk around","image_path": r"./images/brush.jpeg", "is_correct": False],
+             {"Wiggle and squirm","image_path": r"./images/brush.jpeg", "is_correct": False},
+             {"Sit still and listen to the dentist", "image_path": r"./images/brush.jpeg", "is_correct": True},
+             {"Jump up and down","image_path": r"./images/brush.jpeg", "is_correct": False},
+             {"Shout and walk around","image_path": r"./images/brush.jpeg", "is_correct": False}],
       
     },
     {
@@ -195,44 +195,46 @@ if __name__ == "__main__":
     {
         "question": "What is the name of the machine that the dentist might use to take pictures of your teeth?",
         "choices": [
-            "Camera", 
-            "Microscope",
-            "X-ray machine",
-            "Phone"],
-        "answer": "X-ray machine"
+            {"Camera", "image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"Microscope","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"X-ray machine","image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"Phone""image_path": r"./images/brush.jpeg", "is_correct": False}],
+     
     },
     {
         "question": "What can you do if you feel scared at the dental clinic?",
         "choices": [
-            "Scream loudly", 
-            "Talk to the dentist about your feelings",
-            "Hide under the chair"],
-        "answer": "Talk to the dentist about your feelings"
+            {"Scream loudly", "image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"Talk to the dentist about your feelings", "image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"Hide under the chair","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"None of the above","image_path": r"./images/brush.jpeg", "is_correct": False}],
+    
     },
     {
         "question": "What might the dentist use to fix a small hole in your tooth?",
         "choices": [
-            "Glue", 
-            "Toothpaste",
-            "Filling"],
-        "answer": "Filling"
+            {"Glue", "image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"Toothpaste","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"Filling","image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"Sauce","image_path": r"./images/brush.jpeg", "is_correct": False}],
+        
     },
     {
         "question": "What should you do if you accidentally bite the dentist's fingers during a treatment?",
         "choices": [
-            "Laugh loudly",
-              "Apologize and try not to bite again",
-              " Bite again on purpose",
-              "Ignore it"],
-        "answer": "Apologize and try not to bite again"
+            {"Laugh loudly","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"Apologize and try not to bite again", "image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"Bite again on purpose","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"Ignore it","image_path": r"./images/brush.jpeg", "is_correct": False}],
+        
     },
     {
         "question": "Why is it important to be honest with the dentist?",
         "choices": [
-                     {"To tell funny stories", "image_path": r"./images/brush.jpeg", "is_correct": False},
-                     {"To keep secrets","image_path": r"./images/brush.jpeg", "is_correct": False},
-                     {"So the dentist can help you better", "image_path": r"./images/brush.jpeg", "is_correct": True},
-                     {"None of the above", "image_path": r"./images/brush.jpeg", "is_correct": False}],
+             {"To tell funny stories", "image_path": r"./images/brush.jpeg", "is_correct": False},
+             {"To keep secrets","image_path": r"./images/brush.jpeg", "is_correct": False},
+             {"So the dentist can help you better", "image_path": r"./images/brush.jpeg", "is_correct": True},
+             {"None of the above", "image_path": r"./images/brush.jpeg", "is_correct": False}],
      
     },
     {
