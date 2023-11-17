@@ -160,7 +160,7 @@ if __name__ == "__main__":
         "question": "What should you do when you first arrive at the dental clinic?",
         "choices": [
             {"Run around and explore","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"Sit quietly and wait for your turn","image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"Sit quietly and wait for your turn", "image_path": r"./images/brush.jpeg", "is_correct": True},
             {"Yell and make noise","image_path": r"./images/brush.jpeg", "is_correct": False},
             {"None of the above,"image_path": r"./images/brush.jpeg", "is_correct": False"}],
         
@@ -169,27 +169,28 @@ if __name__ == "__main__":
         "question": "What might the dentist use to count your teeth during a check-up?",
         "choices": [
             {"Pencil","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"Toothbrush","image_path": r"./images/brush.jpeg", "is_correct": False}
+            {"Toothbrush","image_path": r"./images/brush.jpeg", "is_correct": False},
             {"Mirror and a small tool","image_path": r"./images/brush.jpeg", "is_correct": True},
             {"Toy","image_path": r"./images/brush.jpeg", "is_correct": False}],
-        "answer": "Mirror and a small tool"
+       
     },
     {
         "question": "How should you behave while sitting in the dental chair?",
-        "choices": ["Wiggle and squirm",
-                     "Sit still and listen to the dentist", "image_path": r"./images/brush.jpeg", "is_correct": False
-                     "Jump up and down","image_path": r"./images/brush.jpeg", "is_correct": False
-                     "Shout and walk around""image_path": r"./images/brush.jpeg", "is_correct": False],
-        "answer": "Sit still and listen to the dentist"
+        "choices": [
+                    {"Wiggle and squirm","image_path": r"./images/brush.jpeg", "is_correct": False},
+                    {"Sit still and listen to the dentist", "image_path": r"./images/brush.jpeg", "is_correct": True},
+                    {"Jump up and down","image_path": r"./images/brush.jpeg", "is_correct": False},
+                    {"Shout and walk around","image_path": r"./images/brush.jpeg", "is_correct": False],
+      
     },
     {
         "question": "What can you do to be brave during a dental treatment?",
         "choices": [
-            "Cry loudly",
-              "Hold the dentist's hand and take deep breaths",
-                "Refuse to cooperate",
-                "Shout when dentist come"],
-        "answer": "Hold the dentist's hand and take deep breaths"
+            {"Cry loudly","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"Hold the dentist's hand and take deep breaths", "image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"Refuse to cooperate","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"Shout when dentist come", "image_path": r"./images/brush.jpeg", "is_correct": False}],
+   
     },
     {
         "question": "What is the name of the machine that the dentist might use to take pictures of your teeth?",
