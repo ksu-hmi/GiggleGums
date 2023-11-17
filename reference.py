@@ -1,227 +1,257 @@
 import tkinter as tk
 from tkinter import messagebox, ttk
 from ttkbootstrap import Style
-from PIL import Image
+from PIL import Image, ImageTk
 
 
-quiz_data = [
-    {
-        "question": "Which Of these is a toothbrush?",
-        "choices": ["cloth", "pencil", "toothbrush", "stick"],
-        "answer": "toothbrush"
-    },
-    {
-        "question": " What is used to clean between your teeth?",
-        "choices": ["floss", "safety pin", "toothpick", "keys"],
-        "answer": "floss"
-    },
-    {
+class QuizApp:
+    def __init__(self, root, quiz_data):
+        self.root = root
+        self.root.title("Quiz App")
+        self.root.geometry("800x300")  # Adjust the window size as needed
+
+        self.quiz_data = quiz_data
+        self.current_question = 0
+        self.score = 0
+
+        self.create_widgets()
+
+    def create_widgets(self):
+        self.qs_label = ttk.Label(
+            self.root,
+            text="Welcome to the Quiz App!",
+            font=("Helvetica", 20),
+            wraplength=700,
+            padding=10
+        )
+        self.qs_label.pack(pady=10)
+
+        self.choice_btns = []
+        for i in range(4):
+            button = ttk.Button(
+                self.root,
+                command=lambda i=i: self.check_answer(i, self.choice_btns),
+                text="",
+                compound="top"  # To display image above the text
+            )
+            button.pack(side="left", padx=10)  # Adjust padx as needed
+            self.choice_btns.append(button)
+
+        self.feedback_label = ttk.Label(
+            self.root,
+            text="",
+            font=("Helvetica", 16),
+            padding=10
+        )
+        self.feedback_label.pack(pady=10)
+
+        self.score_label = ttk.Label(
+            self.root,
+            text="Score: 0/{}".format(len(self.quiz_data)),
+            font=("Helvetica", 16),
+            padding=10
+        )
+        self.score_label.pack(pady=10)
+
+        self.next_btn = ttk.Button(
+            self.root,
+            text="Next",
+            command=self.next_question,
+            state="disabled"
+        )
+        self.next_btn.pack(pady=10)
+
+        self.show_question()
+
+    def show_question(self):
+        question_data = self.quiz_data[self.current_question]
+        self.qs_label.config(text=question_data["question"])
+
+        for i in range(4):
+            choice_btn = self.choice_btns[i]
+            choice_data = question_data["choices"][i]
+
+            # Load and display the image
+            image = Image.open(choice_data["image_path"])
+            image.thumbnail((100, 100))  # Adjust the size as needed
+            photo = ImageTk.PhotoImage(image)
+            choice_btn.config(text=choice_data["text"], image=photo)
+            choice_btn.photo = photo  # To prevent garbage collection
+
+            # Enable the button
+            choice_btn.config(state="normal")
+
+        self.feedback_label.config(text="")
+        self.next_btn.config(state="disabled")
+
+    def check_answer(self, choice, buttons):
+        question_data = self.quiz_data[self.current_question]
+        selected_choice = question_data["choices"][choice]
+
+        if selected_choice["is_correct"]:
+            self.score += 1
+            self.feedback_label.config(text="Correct!", foreground="green")
+        else:
+            self.feedback_label.config(text="Incorrect!", foreground="red")
+
+        for btn in buttons:
+            btn.config(state="disabled")
+        self.next_btn.config(state="normal")
+        self.score_label.config(text="Score: {}/{}".format(self.score, len(self.quiz_data)))
+
+    def next_question(self):
+        self.current_question += 1
+
+        if self.current_question < len(self.quiz_data):
+            self.show_question()
+        else:
+            messagebox.showinfo("Quiz Completed",
+                                "Quiz Completed! Final score: {}/{}".format(self.score, len(self.quiz_data)))
+            self.root.destroy()
+
+
+if __name__ == "__main__":
+    quiz_data = [
+        {
+            "question": " What is used to clean between your teeth?",
+            "choices": [
+                {"text": "floss", "image_path": r"./images/brush.jpeg", "is_correct": True},
+                {"text": "safety pin", "image_path": r"./images/brush.jpeg", "is_correct": False},
+                {"text": "toothpick", "image_path": r"./images/brush.jpeg", "is_correct": False},
+                {"text": "keys", "image_path": r"./images/brush.jpeg", "is_correct": False}],
+        },
+        {
         "question": " What should you use to protect your teeth when playing sports?",
-        "choices": ["helmet", "mouth gaurd", "bubble gum", "mask"],
-        "answer": "mouth gaurd"
+        "choices": [
+            {"helmet","image_path": r"./images/Helmet.jpg", "is_correct": False},
+            {"mouth gaurd","image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"bubble gum","image_path": r"./images/brush.jpeg", "is_correct": False}
+            {"mask","image_path": r"./images/brush.jpeg", "is_correct": False}],
     },
     {
         "question": "Which picture represents a healthy snack for your teeth?",
-        "choices": ["apple", "sandwich", "candy", "gummy bear"],
-        "answer": "apple"
+        "choices": [
+            {"apple","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"sandwich","image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"candy","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"gummy bear","image_path": r"./images/brush.jpeg", "is_correct": False}],
+      
     },
     {
         "question": "Which picture represents a healthy drink for your teeth?",
-        "choices": ["water", "milk", "soda", "sugary juice"],
-        "answer": "water"
+        "choices": [
+            {"water","image_path": r"./images/brush.jpeg", "is_correct": True}, 
+            {"milk", "image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"soda", "image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"sugary juice","image_path": r"./images/brush.jpeg", "is_correct": False}],
+        
     },
-    {
-        "question": " Which picture shows a tooth with a cavity?",
-        "choices": ["yellow tooth", "white tooth", "brown tooth", "golden tooth"],
-        "answer": "brown tooth"
-    },
-    {
-        "question": "Which picture shows a toothbrushing technique?",
-        "choices": ["up and down", "round and round", "back and forth", "zigzag"],
-        "answer": "round and round"
-    },
-    {
-        "question": "Which picture represents a dental check-up?",
-        "choices": ["pic1", "pic2", "pic3"],
-        "answer": "pic3"
-    },
+      
     {
         "question": "What should you avoid doing with your teeth?",
-        "choices": ["brushing", "flossing", "mouth rinse", "opening bottle"],
-        "answer": "opening bottle"
+        "choices": [
+            {"brushing","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"flossing","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"mouth rinse","image_path": r"./images/brush.jpeg", "is_correct": False}, 
+            {"opening bottle","image_path": r"./images/brush.jpeg", "is_correct":True}],
+       
     },
     {
         "question": "What should you do when you first arrive at the dental clinic?",
-        "choices": ["Run around and explore","Sit quietly and wait for your turn","Yell and make noise"],
-        "answer": "Sit quietly and wait for your turn"
+        "choices": [
+            {"Run around and explore","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"Sit quietly and wait for your turn","image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"Yell and make noise","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"None of the above,"image_path": r"./images/brush.jpeg", "is_correct": False"}],
+        
     },
     {
         "question": "What might the dentist use to count your teeth during a check-up?",
-        "choices": ["Pencil", "Toothbrush", "Mirror and a small tool"],
+        "choices": [
+            {"Pencil","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"Toothbrush","image_path": r"./images/brush.jpeg", "is_correct": False}
+            {"Mirror and a small tool","image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"Toy","image_path": r"./images/brush.jpeg", "is_correct": False}],
         "answer": "Mirror and a small tool"
     },
     {
         "question": "How should you behave while sitting in the dental chair?",
-        "choices": ["Wiggle and squirm", "Sit still and listen to the dentist", "Jump up and down"],
+        "choices": ["Wiggle and squirm",
+                     "Sit still and listen to the dentist", "image_path": r"./images/brush.jpeg", "is_correct": False
+                     "Jump up and down","image_path": r"./images/brush.jpeg", "is_correct": False
+                     "Shout and walk around""image_path": r"./images/brush.jpeg", "is_correct": False],
         "answer": "Sit still and listen to the dentist"
     },
     {
         "question": "What can you do to be brave during a dental treatment?",
-        "choices": ["Cry loudly", "Hold the dentist's hand and take deep breaths", "Refuse to cooperate"],
+        "choices": [
+            "Cry loudly",
+              "Hold the dentist's hand and take deep breaths",
+                "Refuse to cooperate",
+                "Shout when dentist come"],
         "answer": "Hold the dentist's hand and take deep breaths"
     },
     {
         "question": "What is the name of the machine that the dentist might use to take pictures of your teeth?",
-        "choices": ["Camera", "Microscope","X-ray machine"],
+        "choices": [
+            "Camera", 
+            "Microscope",
+            "X-ray machine",
+            "Phone"],
         "answer": "X-ray machine"
     },
     {
         "question": "What can you do if you feel scared at the dental clinic?",
-        "choices": ["Scream loudly", "Talk to the dentist about your feelings","Hide under the chair"],
+        "choices": [
+            "Scream loudly", 
+            "Talk to the dentist about your feelings",
+            "Hide under the chair"],
         "answer": "Talk to the dentist about your feelings"
     },
     {
         "question": "What might the dentist use to fix a small hole in your tooth?",
-        "choices": ["Glue", "Toothpaste","Filling"],
+        "choices": [
+            "Glue", 
+            "Toothpaste",
+            "Filling"],
         "answer": "Filling"
     },
     {
         "question": "What should you do if you accidentally bite the dentist's fingers during a treatment?",
-        "choices": ["Laugh loudly", "Apologize and try not to bite again"," Bite again on purpose"],
+        "choices": [
+            "Laugh loudly",
+              "Apologize and try not to bite again",
+              " Bite again on purpose",
+              "Ignore it"],
         "answer": "Apologize and try not to bite again"
     },
     {
         "question": "Why is it important to be honest with the dentist?",
-        "choices": ["To tell funny stories", "To keep secrets","So the dentist can help you better"],
+        "choices": ["To tell funny stories",
+                     "To keep secrets",
+                     "So the dentist can help you better",
+                     "None of the above"],
         "answer": "So the dentist can help you better"
     },
     {
         "question": "How should you behave in the dental clinic's restroom?",
-        "choices": ["Flush the toilet and wash your hands", "Skip washing hands","Make a mess"],
+        "choices": [
+            "Flush the toilet and wash your hands", 
+            "Skip washing hands",
+            "Make a mess",
+            "Argue with dentist"],
         "answer": "Flush the toilet and wash your hands"
     },
     {
         "question": "How should you brush your teeth before going to the dentist?",
-        "choices": ["Quickly and without toothpaste", " Thoroughly with toothpaste","No need to brush your teeth before dental visit"],
+        "choices": ["Quickly and without toothpaste",
+                     " Thoroughly with toothpaste",
+                     "No need to brush your teeth before dental visit"],
         "answer": " Thoroughly with toothpaste"
     },
     # Add more questions here
 ]
 
-
-# Function to display the current question and choices
-def show_question():
-    # Get the current question from the quiz_data list
-    question = quiz_data[current_question]
-    qs_label.config(text=question["question"])
-
-    # Display the choices on the buttons
-    choices = question["choices"]
-    for i in range(4):
-        choice_btns[i].config(text=choices[i], state="normal") # Reset button state
-
-    # Clear the feedback label and disable the next button
-    feedback_label.config(text="")
-    next_btn.config(state="disabled")
-
-# Function to check the selected answer and provide feedback
-def check_answer(choice):
-    # Get the current question from the quiz_data list
-    question = quiz_data[current_question]
-    selected_choice = choice_btns[choice].cget("text")
-
-    # Check if the selected choice matches the correct answer
-    if selected_choice == question["answer"]:
-        # Update the score and display it
-        global score
-        score += 1
-        score_label.config(text="Score: {}/{}".format(score, len(quiz_data)))
-        feedback_label.config(text="Correct!", foreground="green")
-    else:
-        feedback_label.config(text="Incorrect!", foreground="red")
-    
-    # Disable all choice buttons and enable the next button
-    for button in choice_btns:
-        button.config(state="disabled")
-    next_btn.config(state="normal")
-
-# Function to move to the next question
-def next_question():
-    global current_question
-    current_question +=1
-
-    if current_question < len(quiz_data):
-        # If there are more questions, show the next question
-        show_question()
-    else:
-        # If all questions have been answered, display the final score and end the quiz
-        messagebox.showinfo("Quiz Completed",
-                            "Quiz Completed! Final score: {}/{}".format(score, len(quiz_data)))
-        root.destroy()
-
-# Create the main window
-root = tk.Tk()
-root.title("Quiz App")
-root.geometry("600x500")
-style = Style(theme="flatly")
-
-# Configure the font size for the question and choice buttons
-style.configure("TLabel", font=("Helvetica", 20))
-style.configure("TButton", font=("Helvetica", 16))
-
-# Create the question label
-qs_label = ttk.Label(
-    root,
-    anchor="center",
-    wraplength=500,
-    padding=10
-)
-qs_label.pack(pady=10)
-
-# Create the choice buttons
-choice_btns = []
-for i in range(4):
-    button = ttk.Button(
-        root,
-        command=lambda i=i: check_answer(i)
-    )
-    button.pack(pady=5)
-    choice_btns.append(button)
-
-# Create the feedback label
-feedback_label = ttk.Label(
-    root,
-    anchor="center",
-    padding=10
-)
-feedback_label.pack(pady=10)
-
-# Initialize the score
-score = 0
-
-# Create the score label
-score_label = ttk.Label(
-    root,
-    text="Score: 0/{}".format(len(quiz_data)),
-    anchor="center",
-    padding=10
-)
-score_label.pack(pady=10)
-
-# Create the next button
-next_btn = ttk.Button(
-    root,
-    text="Next",
-    command=next_question,
-    state="disabled"
-)
-next_btn.pack(pady=10)
-
-# Initialize the current question index
-current_question = 0
-
-# Show the first question
-show_question()
-
-# Start the main event loop
-root.mainloop()
+    root = tk.Tk()
+    app = QuizApp(root, quiz_data)
+    root.mainloop()
