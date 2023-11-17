@@ -7,7 +7,7 @@
 - [x] https://github.com/achudnova/projects-yt/tree/main/QuizApp
 - [x] https://github.com/ksu-hmi/Anatomy-Game 
 - [x] Make essential project modifications and submit the changes.
-- [ ] Review and execute the code
+- [x] Review and execute the code
 
 # Sprint 2
 - [x] Making necessary updates with commit messages within the designated organization
