@@ -11,6 +11,7 @@
 
 # Sprint 2
 - [x] Making necessary updates with commit messages within the designated organization
+- [x] Clone your project repository to your GitHub Desktop
 - [x] Commit a minimum of 6 code changes of significant size
 - [x] Updating Project roadmap as our tasks are completed
 
