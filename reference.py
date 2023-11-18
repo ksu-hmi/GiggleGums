@@ -123,10 +123,10 @@ if __name__ == "__main__":
         {
         "question": " What should you use to protect your teeth when playing sports?",
         "choices": [
-               {"helmet","image_path": r"./images/Helmet.jpg", "is_correct": False},
-               {"mouth gaurd","image_path": r"./images/brush.jpeg", "is_correct": True},
-               {"bubble gum","image_path": r"./images/brush.jpeg", "is_correct": False}
-               {"mask","image_path": r"./images/brush.jpeg", "is_correct": False}],
+               {"helmet","image_path": r"images/Q1 Toothbrush.jpg", "is_correct": False},
+               {"mouth guard","image_path": r"images/Q1 Toothbrush.jpg", "is_correct": True},
+               {"bubble gum","image_path": r".images/Q1 Toothbrush.jpg", "is_correct": False}
+               {"mask","image_path": r"images/Q1 Toothbrush.jpg", "is_correct": False}],
     },
     {
         "question": "Which picture represents a healthy snack for your teeth?",
