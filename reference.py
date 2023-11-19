@@ -159,10 +159,10 @@ if __name__ == "__main__":
     {
         "question": "What should you do when you first arrive at the dental clinic?",
         "choices": [
-            {"text":"Run around and explore","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Sit quietly and wait for your turn","image_path": r"./images/brush.jpeg", "is_correct": True},
-            {"text":"Yell and make noise","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"None of the above","image_path": r"./images/brush.jpeg", "is_correct": False}],
+            {"text": "Run around and explore","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text": "Sit quietly and wait for your turn","image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"text": "Yell and make noise","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text": "None of the above","image_path": r"./images/brush.jpeg", "is_correct": False}],
         
     },
     {
@@ -215,44 +215,44 @@ if __name__ == "__main__":
         "choices": [
             {"text":"Glue", "image_path": r"./images/brush.jpeg", "is_correct": False},
             {"text":"Toothpaste","image_path": r"./images/brush.jpeg", "is_correct": False},
-           {"text": "Filling","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text": "Filling","image_path": r"./images/brush.jpeg", "is_correct": True},
             ],
         "answer": "Filling"
     },
     {
         "question": "What should you do if you accidentally bite the dentist's fingers during a treatment?",
         "choices": [
-            {"text":"Laugh loudly",
-            {"text": "Apologize and try not to bite again",
-            {"text":" Bite again on purpose",
-            {"text":"Ignore it"],
-        "answer": "Apologize and try not to bite again"
+            {"text":"Laugh loudly", "image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text": "Apologize and try not to bite again", "image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"text":" Bite again on purpose", "image_path": r"./images/brush.jpeg", "is_correct": False},
+           {"text":"Ignore it","image_path": r"./images/brush.jpeg", "is_correct": False}],
+      
     },
     {
         "question": "Why is it important to be honest with the dentist?",
         "choices": [
-            {"text":"To tell funny stories",
-            {"text":"To keep secrets",
-            {"text":"So the dentist can help you better",
-            {"text":"None of the above"],
-        "answer": "So the dentist can help you better"
+            {"text":"To tell funny stories","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text":"To keep secrets","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text":"So the dentist can help you better","image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"text":"None of the above","image_path": r"./images/brush.jpeg", "is_correct": False}],
+      
     },
     {
         "question": "How should you behave in the dental clinic's restroom?",
         "choices": [
-            {"text":"Flush the toilet and wash your hands", 
-            {"text":"Skip washing hands",
-            "text":"Make a mess",
-            "text":"Argue with dentist"],
-        "answer": "Flush the toilet and wash your hands"
+            {"text":"Flush the toilet and wash your hands", "image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"text":"Skip washing hands","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text":"Make a mess","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text":"Argue with dentist","image_path": r"./images/brush.jpeg", "is_correct": False}],
+       
     },
     {
         "question": "How should you brush your teeth before going to the dentist?",
         "choices": [
-            "text":"Quickly and without toothpaste",
-            "text":" Thoroughly with toothpaste",
-            "text":"No need to brush your teeth before dental visit"
-            "text":"None of the above"],
+            {"text":"Quickly and without toothpaste","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text":" Thoroughly with toothpaste","image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"text":"No need to brush your teeth before dental visit","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text":"None of the above","image_path": r"./images/brush.jpeg", "is_correct": False}],
         "answer": " Thoroughly with toothpaste"
     },
     # Add more questions here
