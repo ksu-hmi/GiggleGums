@@ -123,27 +123,27 @@ if __name__ == "__main__":
         {
            "question": " What should you use to protect your teeth when playing sports?",
          "choices": [
-            {"text":"helmet","image_path": r"./images/Helmet.jpg", "is_correct": False},
-            {"text":"mouth gaurd","image_path": r"./Mouth guard.jpg", "is_correct": True},
+            {"text":"Helmet","image_path": r"./images/Helmet.jpeg", "is_correct": False},
+            {"text":"Mouth guard","image_path": r"./Mouth guard.jpeg", "is_correct": True},
             {"text":"bubble gum","image_path": r"./images/Bubble gum.jpg", "is_correct": False},
             {"text":"mask","image_path": r"./images/Mask.jpg", "is_correct": False}],
     },
     {
         "question": "Which picture represents a healthy snack for your teeth?",
         "choices": [
-            {"text":"apple","image_path": r"./images/Apple.jpg", "is_correct": False},
-            {"text":"sandwich","image_path": r"./images/Sandwich.jpg", "is_correct": True},
-            {"text":"candies","image_path": r"./images/Candies.jpg", "is_correct": False},
-            {"text":"gummy bear","image_path": r"./images/Gummy bears.jpg", "is_correct": False}],
+            {"text":"Apple","image_path": r"./images/Apple.jpeg", "is_correct": False},
+            {"text":"Sandwich","image_path": r"./images/Sandwich.jpeg", "is_correct": True},
+            {"text":"Candies","image_path": r"./images/Candies.jpeg", "is_correct": False},
+            {"text":"Gummy bears","image_path": r"./images/Gummy bears.jpeg", "is_correct": False}],
       
     },
     {
         "question": "Which picture represents a healthy drink for your teeth?",
         "choices": [
-            {"text":"water","image_path": r"./images/Water.jpg", "is_correct": True}, 
-            {"text":"milk", "image_path": r"./images/Milk.jpg", "is_correct": False},
-            {"text":"soda", "image_path": r"./images/Soda.jpg", "is_correct": False},
-            {"text":"sugary juice","image_path": r"./images/Sugary Juice.jpg", "is_correct": False}],
+            {"text":"Water","image_path": r"./images/Water.jpeg", "is_correct": True}, 
+            {"text":"Milk", "image_path": r"./images/Milk.jpeg", "is_correct": False},
+            {"text":"Soda", "image_path": r"./images/Soda.jpeg", "is_correct": False},
+            {"text":"Sugary Juice","image_path": r"./images/Sugary Juice.jpeg", "is_correct": False}],
         
     },
      
