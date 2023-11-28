@@ -217,7 +217,7 @@ if __name__ == "__main__":
             {"text":"Toothpaste","image_path": r"./images/brush.jpeg", "is_correct": False},
             {"text": "Filling","image_path": r"./images/brush.jpeg", "is_correct": True},
             ],
-        "answer": "Filling"
+        
     },
     {
         "question": "What should you do if you accidentally bite the dentist's fingers during a treatment?",
@@ -253,7 +253,7 @@ if __name__ == "__main__":
             {"text":" Thoroughly with toothpaste","image_path": r"./images/brush.jpeg", "is_correct": True},
             {"text":"No need to brush your teeth before dental visit","image_path": r"./images/brush.jpeg", "is_correct": False},
             {"text":"None of the above","image_path": r"./images/brush.jpeg", "is_correct": False}],
-        "answer": " Thoroughly with toothpaste"
+        
     },
     # Add more questions here
 ]
