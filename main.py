@@ -115,18 +115,18 @@ if __name__ == "__main__":
         {
             "question": " What is used to clean between your teeth?",
             "choices": [
-                {"text": "floss", "image_path": r"./images/Toothbrush.jpg", "is_correct": True},
-                {"text": "safety pin", "image_path": r"./images/Safety Pin.jpg", "is_correct": False},
-                {"text": "toothpick", "image_path": r"./images/Toothpick.jpg", "is_correct": False},
-                {"text": "keys", "image_path": r"./images/Keys.jpg", "is_correct": False}],
+                {"text": "floss", "image_path": r"./images/Toothbrush.jpeg", "is_correct": True},
+                {"text": "safety pin", "image_path": r"./images/Safety Pin.jpeg", "is_correct": False},
+                {"text": "toothpick", "image_path": r"./images/Toothpick.jpeg", "is_correct": False},
+                {"text": "keys", "image_path": r"./images/Keys.jpeg", "is_correct": False}],
         },
         {
            "question": " What should you use to protect your teeth when playing sports?",
          "choices": [
             {"text":"Helmet","image_path": r"./images/Helmet.jpeg", "is_correct": False},
             {"text":"Mouth guard","image_path": r"./Mouth guard.jpeg", "is_correct": True},
-            {"text":"bubble gum","image_path": r"./images/Bubble gum.jpg", "is_correct": False},
-            {"text":"mask","image_path": r"./images/Mask.jpg", "is_correct": False}],
+            {"text":"bubble gum","image_path": r"./images/Bubble gum.jpeg", "is_correct": False},
+            {"text":"mask","image_path": r"./images/Mask.jpeg", "is_correct": False}],
     },
     {
         "question": "Which picture represents a healthy snack for your teeth?",
