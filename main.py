@@ -113,7 +113,23 @@ class QuizApp:
 if __name__ == "__main__":
     quiz_data = [
         {
-            "question": " What is used to clean between your teeth?",
+            "question": " Which of these is use to clean the teeth?",
+            "choices": [
+                {"text": "Cloth", "image_path": r"./images/Q1 Cloth.jpeg", "is_correct": False},
+                {"text": "Finger", "image_path": r"./images/Q1 Finger.jpeg", "is_correct": False},
+                {"text": "Pencil", "image_path": r"./images/Q1 Pencil.jpeg", "is_correct": False},
+                {"text": "Toothbrush", "image_path": r"./images/Q1 Toothbrush.jpeg", "is_correct": True}],
+        },
+        {
+           "question": " What might Dentist use to check your teeth during Check-up?",
+         "choices": [
+            {"text":"Pencil","image_path": r"./images/Q11-Pencil.jpeg", "is_correct": False},
+            {"text":"Toothbrush","image_path": r"./Q11-Toothbrush.jpeg", "is_correct": False},
+            {"text":"Mirror and a small tool","image_path": r"./images/Q11-Dental-mirror-and-tool.jpeg", "is_correct": True}
+            ],
+        },
+        {     
+          "question": " What is used to clean between your teeth?",
             "choices": [
                 {"text": "floss", "image_path": r"./images/Toothbrush.jpeg", "is_correct": True},
                 {"text": "safety pin", "image_path": r"./images/Safety Pin.jpeg", "is_correct": False},
