@@ -26,7 +26,7 @@ quiz_data = [
     },
     {
         "question": " Which picture shows a tooth with a cavity?",
-        "choices": ["yellow tooth", "white tooth", "brown tooth", "golden tooth"],
+        "choices": ["yellow tooth", "white tooth", "brown tooth", "broken tooth"],
         "answer": "brown tooth"
     },
     {
