@@ -36,7 +36,7 @@ quiz_data = [
     },
     {
         "question": "Which picture represents a dental check-up?",
-        "choices": ["pic1", "pic2", "pic3"],
+        "choices": ["pic1", "pic2", "pic3","pic4"],
         "answer": "pic3"
     },
     {
