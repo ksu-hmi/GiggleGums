@@ -71,6 +71,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
  - [Khushbuben Patel](https://github.com/khushbubenpatel18)
 
 # Website
-<a href="https://ksu-hmi.github.io/GiggleGums/">Visit GiggleGums website</a>
+<a href="https://ksu-hmi.github.io/GiggleGums/"> Visit GiggleGums website</a>
 
 
