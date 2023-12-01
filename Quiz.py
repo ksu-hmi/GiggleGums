@@ -46,7 +46,7 @@ quiz_data = [
     },
     {
         "question": "What should you do when you first arrive at the dental clinic?",
-        "choices": ["Run around and explore","Sit quietly and wait for your turn","Yell and make noise"],
+        "choices": ["Run around and explore","Sit quietly and wait for your turn","Yell and make noise","Cry"],
         "answer": "Sit quietly and wait for your turn"
     },
     {
