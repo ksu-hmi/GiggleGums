@@ -31,8 +31,8 @@ quiz_data = [
     },
     {
         "question": "Which picture shows a toothbrushing technique?",
-        "choices": ["up and down", "round and round", "back and forth", "zigzag"],
-        "answer": "round and round"
+        "choices": ["up and down", "round and round", "back and forth", "combination of all"],
+        "answer": "combination of all"
     },
     {
         "question": "Which picture represents a dental check-up?",
