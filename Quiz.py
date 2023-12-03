@@ -1,8 +1,8 @@
 quiz_data = [
     {
-        "question": "Which Of these is a toothbrush?",
-        "choices": ["cloth", "pencil", "toothbrush", "stick"],
-        "answer": "toothbrush"
+        "question": "Which of these is use to clean the teeth?",
+        "choices": ["Cloth", "Pencil", "Toothbrush", "Finger"],
+        "answer": "Toothbrush"
     },
     {
         "question": " What is used to clean the area between your teeth?",
