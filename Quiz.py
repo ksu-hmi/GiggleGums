@@ -76,7 +76,7 @@ quiz_data = [
     },
     {
         "question": "What might the dentist use to fix a small hole in your tooth?",
-        "choices": ["Glue", "Toothpaste","Filling", "Bibble Gum"],
+        "choices": ["Glue", "Toothpaste","Filling", "Bubble Gum"],
         "answer": "Filling"
     },
     {
