@@ -123,72 +123,72 @@ if __name__ == "__main__":
         {     
           "question": " What is used to clean the area between your teeth?",
             "choices": [
-                {"text": "floss", "image_path": r"./images/Toothbrush.jpeg", "is_correct": True},
-                {"text": "safety pin", "image_path": r"./images/Safety Pin.jpeg", "is_correct": False},
-                {"text": "toothpick", "image_path": r"./images/Toothpick.jpeg", "is_correct": False},
-                {"text": "keys", "image_path": r"./images/Keys.jpeg", "is_correct": False}],
+                {"text": "floss", "image_path": r"./images/Q2 Floss.jpeg", "is_correct": True},
+                {"text": "safety pin", "image_path": r"./images/Q2 Safety Pin.jpeg", "is_correct": False},
+                {"text": "toothpick", "image_path": r"./images/Q2Toothpick.jpeg", "is_correct": False},
+                {"text": "keys", "image_path": r"./images/Q2 Keys.jpeg", "is_correct": False}],
         },
         {
            "question": " What should you use to protect your teeth when playing sports?",
          "choices": [
-            {"text":"Helmet","image_path": r"./images/Helmet.jpeg", "is_correct": False},
-            {"text":"Mouth guard","image_path": r"./Mouth guard.jpeg", "is_correct": True},
-            {"text":"bubble gum","image_path": r"./images/Bubble gum.jpeg", "is_correct": False},
-            {"text":"mask","image_path": r"./images/Mask.jpeg", "is_correct": False}],
+            {"text":"Helmet","image_path": r"./images/Q3 Helmet.jpeg", "is_correct": False},
+            {"text":"Mouth guard","image_path": r"./Q3 Mouth guard.jpeg", "is_correct": True},
+            {"text":"bubble gum","image_path": r"./Q3 images/Bubble gum.jpeg", "is_correct": False},
+            {"text":"mask","image_path": r"./images/Q3 Mask.jpeg", "is_correct": False}],
     },
     {
         "question": "Which picture represents a healthy snack for your teeth?",
         "choices": [
-            {"text":"Apple","image_path": r"./images/Apple.jpeg", "is_correct": False},
-            {"text":"Sandwich","image_path": r"./images/Sandwich.jpeg", "is_correct": True},
-            {"text":"Candies","image_path": r"./images/Candies.jpeg", "is_correct": False},
-            {"text":"Gummy bears","image_path": r"./images/Gummy bears.jpeg", "is_correct": False}],
+            {"text":"Apple","image_path": r"./images/Q4 Apple.jpeg", "is_correct": False},
+            {"text":"Sandwich","image_path": r"./images/Q4 Sandwich.jpeg", "is_correct": True},
+            {"text":"Candies","image_path": r"./images/Q4 Candies.jpeg", "is_correct": False},
+            {"text":"Gummy bears","image_path": r"./images/Q4 Gummy bears.jpeg", "is_correct": False}],
       
     },
     {
         "question": "Which picture represents a healthy drink for your teeth?",
         "choices": [
-            {"text":"Water","image_path": r"./images/Water.jpeg", "is_correct": True}, 
-            {"text":"Milk", "image_path": r"./images/Milk.jpeg", "is_correct": False},
-            {"text":"Soda", "image_path": r"./images/Soda.jpeg", "is_correct": False},
-            {"text":"Sugary Juice","image_path": r"./images/Sugary Juice.jpeg", "is_correct": False}],
+            {"text":"Water","image_path": r"./images/Q5 Water.jpeg", "is_correct": True}, 
+            {"text":"Milk", "image_path": r"./images/Q5 Milk.jpeg", "is_correct": False},
+            {"text":"Soda", "image_path": r"./images/Q5 Soda.jpeg", "is_correct": False},
+            {"text":"Sugary Juice","image_path": r"./Q5 images/Sugary Juice.jpeg", "is_correct": False}],
         
     },
      
     {
         "question": "Which picture shows a tooth with a cavity?",
         "choices": [
-            {"text":"Yellow Tooth","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"White Tooth","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Brown Tooth","image_path": r"./images/brush.jpeg", "is_correct": True}, 
-            {"text":"Broken Tooth","image_path": r"./images/brush.jpeg", "is_correct":False}],
+            {"text":"Yellow Tooth","image_path": r"./images/Q6 Yellow Tooth.jpeg", "is_correct": False},
+            {"text":"White Tooth","image_path": r"./images/Q6 White Tooth.jpeg", "is_correct": False},
+            {"text":"Brown Tooth","image_path": r"./images/Q6 Brown Tooth.jpeg", "is_correct": True}, 
+            {"text":"Broken Tooth","image_path": r"./images/Q6 Broken Tooth.jpeg", "is_correct":False}],
        
     },
     {
         "question": "Which picture represents a dental check-up?",
         "choices": [
-            {"text": "Pic1","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text": "Pic2","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text": "Pic3","image_path": r"./images/brush.jpeg", "is_correct": True},
-            {"text": "Pic4","image_path": r"./images/brush.jpeg", "is_correct": False}],
+            {"text": "Pic1","image_path": r"./images/Q8 Pic1.jpeg", "is_correct": False},
+            {"text": "Pic2","image_path": r"./images/Q8 Pic2.jpeg", "is_correct": False},
+            {"text": "Pic3","image_path": r"./images/Q8 Pic3.jpeg", "is_correct": True},
+            {"text": "Pic4","image_path": r"./images/Q8 Pic4.jpeg", "is_correct": False}],
         
     },
     {
         "question": "What should you avoid doing with your teeth?",
         "choices": [
-            {"text":"Brushing","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Flossing","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Mouth rise","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Opening Bottle","image_path": r"./images/brush.jpeg", "is_correct": True}],
+            {"text":"Brushing","image_path": r"./images/Q9 brushing.jpeg", "is_correct": False},
+            {"text":"Flossing","image_path": r"./images/Q9 flossing.jpeg", "is_correct": False},
+            {"text":"Mouth rise","image_path": r"./images/Q9 mouth rise.jpeg", "is_correct": False},
+            {"text":"Opening Bottle","image_path": r"./images/Q9 opening bottle.jpeg", "is_correct": True}],
        
     },
     {
         "question": "What should you do when you first arrive at the dental clinic?",
         "choices": [
-            {"text":"Run around and explore","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Sit quietly and wait fir your turn", "image_path": r"./images/brush.jpeg", "is_correct": True},
-            {"text":"Yell and make noise","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Cry","image_path": r"./images/brush.jpeg", "is_correct": False}],
+            {"text":"Run around and explore","image_path": r"./images/Q10 run around and explore.jpeg", "is_correct": False},
+            {"text":"Sit quietly and wait for your turn", "image_path": r"./images/Q10 sit quietly and wait for your turn.jpeg", "is_correct": True},
+            {"text":"Yell and make noise","image_path": r"./images/Q10 yell and make noise.jpeg", "is_correct": False},
+            {"text":"Cry","image_path": r"./images/Q10 cry.jpeg", "is_correct": False}],
     
     },
     {
@@ -196,43 +196,43 @@ if __name__ == "__main__":
          "choices": [
             {"text":"Pencil","image_path": r"./images/Q11-Pencil.jpeg", "is_correct": False},
             {"text":"Toothbrush","image_path": r"./Q11-Toothbrush.jpeg", "is_correct": False},
-            {"text":"Mirror and a small tool","image_path": r"./images/Q11-Dental-mirror-and-tool.jpeg", "is_correct": True}
-            ],
+            {"text":"Mirror and a small tool","image_path": r"./images/Q11-Dental-mirror-and-tool.jpeg", "is_correct": True},
+            {"text":"Toothbrush","image_path": r"./Q11-Toothbrush.jpeg", "is_correct": False}],
         },
     {
         "question": "How should you behave while sitting in the dental chair?",
         "choices": [
-            {"text":"Wiggle and squirm","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Sit still and listen to the dentist","image_path": r"./images/brush.jpeg", "is_correct": True},
-            {"text":"Jump up and down","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Cry loudly","image_path": r"./images/brush.jpeg", "is_correct": False}],
+            {"text":"Wiggle and squirm","image_path": r"./images/Q12 wiggle and squirm.jpeg", "is_correct": False},
+            {"text":"Sit still and listen to the dentist","image_path": r"./images/Q12 sit still.jpeg", "is_correct": True},
+            {"text":"Jump up and down","image_path": r"./images/Q12 Jump up and down.jpeg", "is_correct": False},
+            {"text":"Cry loudly","image_path": r"./images/Q12 cry loudly.jpeg", "is_correct": False}],
         
     },
     {
         "question": "What is the name of the machine that the dentist might use to take pictures of your teeth?",
         "choices": [
-            {"text":"Camera","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Microscope","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"X-ray machine","image_path": r"./images/brush.jpeg", "is_correct": True},
-            {"text":"Phone","image_path": r"./images/brush.jpeg", "is_correct": False}],
+            {"text":"Camera","image_path": r"./images/Q14 camera.jpeg", "is_correct": False},
+            {"text":"Microscope","image_path": r"./images/Q14 Microscope.jpeg", "is_correct": False},
+            {"text":"X-ray machine","image_path": r"./images/Q14 Xray machine.jpeg", "is_correct": True},
+            {"text":"Phone","image_path": r"./images/Q14 phone.jpeg", "is_correct": False}],
      
     },
     {
         "question": "What can you do if you feel scared at the dental clinic?",
         "choices": [
-            {"text":"Scream loudly", "image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Talk to the dentist about your feelings","image_path": r"./images/brush.jpeg", "is_correct": True},
-            {"text":"Hide under the chair","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"None of the above","image_path": r"./images/brush.jpeg", "is_correct": False}],                                                              ],
+            {"text":"Scream loudly", "image_path": r"./images/Q15 Scream loudly.jpeg", "is_correct": False},
+            {"text":"Talk to the dentist about your feelings","image_path": r"./images/Q15 Talk to dentist.jpeg", "is_correct": True},
+            {"text":"Hide under the chair","image_path": r"./images/Q15 Hiding under chair.jpeg", "is_correct": False},
+            {"text":"Bite dentist hand","image_path": r"./images/Q15 Bite dentist hand.jpeg", "is_correct": False}],                                                              ],
         
     },
     {
         "question": "What might the dentist use to fix a small hole in your tooth?",
         "choices": [
-            {"text":"Glue", "image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Toothpaste","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text": "Filling","image_path": r"./images/brush.jpeg", "is_correct": True},
-            ],
+            {"text":"Glue", "image_path": r"./images/Q16 Glue.jpeg", "is_correct": False},
+            {"text":"Toothpaste","image_path": r"./images/Q16 Toothpaste.jpeg", "is_correct": False},
+            {"text": "Filling","image_path": r"./images/Q16 Filling.jpeg", "is_correct": True},
+             {"text":"Bubble gum","image_path": r"./images/Q16 Bubble gum.jpeg", "is_correct": False}],
         
     },
     {
