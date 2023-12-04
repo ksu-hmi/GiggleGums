@@ -120,14 +120,6 @@ if __name__ == "__main__":
                 {"text": "Pencil", "image_path": r"./images/Q1 Pencil.jpeg", "is_correct": False},
                 {"text": "Toothbrush", "image_path": r"./images/Q1 Toothbrush.jpeg", "is_correct": True}],
         },
-        {
-           "question": " What might Dentist use to check your teeth during Check-up?",
-         "choices": [
-            {"text":"Pencil","image_path": r"./images/Q11-Pencil.jpeg", "is_correct": False},
-            {"text":"Toothbrush","image_path": r"./Q11-Toothbrush.jpeg", "is_correct": False},
-            {"text":"Mirror and a small tool","image_path": r"./images/Q11-Dental-mirror-and-tool.jpeg", "is_correct": True}
-            ],
-        },
         {     
           "question": " What is used to clean the area between your teeth?",
             "choices": [
@@ -200,12 +192,20 @@ if __name__ == "__main__":
     
     },
     {
-        "question": "What can you do to be brave during a dental treatment?",
+           "question": " What might Dentist use to count your teeth during Check-up?",
+         "choices": [
+            {"text":"Pencil","image_path": r"./images/Q11-Pencil.jpeg", "is_correct": False},
+            {"text":"Toothbrush","image_path": r"./Q11-Toothbrush.jpeg", "is_correct": False},
+            {"text":"Mirror and a small tool","image_path": r"./images/Q11-Dental-mirror-and-tool.jpeg", "is_correct": True}
+            ],
+        },
+    {
+        "question": "How should you behave while sitting in the dental chair?",
         "choices": [
-            {"text":"Cry loudly","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Hold the dentist's hand and take deep breaths","image_path": r"./images/brush.jpeg", "is_correct": True},
-            {"text":"Refuse to cooperate","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Shout when dentist come","image_path": r"./images/brush.jpeg", "is_correct": False}],
+            {"text":"Wiggle and squirm","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text":"Sit still and listen to the dentist","image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"text":"Jump up and down","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text":"Cry loudly","image_path": r"./images/brush.jpeg", "is_correct": False}],
         
     },
     {
