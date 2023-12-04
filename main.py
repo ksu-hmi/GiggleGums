@@ -125,7 +125,7 @@ if __name__ == "__main__":
             "choices": [
                 {"text": "floss", "image_path": r"./images/Q2 Floss.jpeg", "is_correct": True},
                 {"text": "safety pin", "image_path": r"./images/Q2 Safety Pin.jpeg", "is_correct": False},
-                {"text": "toothpick", "image_path": r"./images/Q2Toothpick.jpeg", "is_correct": False},
+                {"text": "toothpick", "image_path": r"./images/Q2 Toothpick.jpeg", "is_correct": False},
                 {"text": "keys", "image_path": r"./images/Q2 Keys.jpeg", "is_correct": False}],
         },
         {
@@ -238,10 +238,10 @@ if __name__ == "__main__":
     {
         "question": "What should you do if you accidentally bite the dentist's fingers during a treatment?",
         "choices": [
-            {"text":"Laugh loudly", "image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text": "Apologize and try not to bite again", "image_path": r"./images/brush.jpeg", "is_correct": True},
-            {"text":" Bite again on purpose", "image_path": r"./images/brush.jpeg", "is_correct": False},
-           {"text":"Ignore it","image_path": r"./images/brush.jpeg", "is_correct": False}],
+            {"text":"Laugh loudly", "image_path": r"./images/Q17 Laugh loudly.jpeg", "is_correct": False},
+            {"text": "Apologize and try not to bite again", "image_path": r"./images/Q17 Apologize.jpeg", "is_correct": True},
+            {"text":" Bite again on purpose", "image_path": r"./images/Q17 Bite on purpose.jpeg", "is_correct": False},
+           {"text":"Cry loudly","image_path": r"./images/Q17 Cry loudly .jpeg", "is_correct": False}],
       
     },
     {
