@@ -113,164 +113,188 @@ class QuizApp:
 if __name__ == "__main__":
     quiz_data = [
         {
-            "question": " Which of these is use to clean the teeth?",
+            "question": "Which of these is used to clean the teeth?",
             "choices": [
                 {"text": "Cloth", "image_path": r"./images/Q1 Cloth.jpeg", "is_correct": False},
                 {"text": "Finger", "image_path": r"./images/Q1 Finger.jpeg", "is_correct": False},
                 {"text": "Pencil", "image_path": r"./images/Q1 Pencil.jpeg", "is_correct": False},
-                {"text": "Toothbrush", "image_path": r"./images/Q1 Toothbrush.jpeg", "is_correct": True}],
+                {"text": "Toothbrush", "image_path": r"./images/Q1 Toothbrush.jpeg", "is_correct": True},
+            ],
         },
         {     
-          "question": " What is used to clean the area between your teeth?",
+            "question": "What is used to clean the area between your teeth?",
             "choices": [
-                {"text": "floss", "image_path": r"./images/Q2 Floss.jpeg", "is_correct": True},
-                {"text": "safety pin", "image_path": r"./images/Q2 Safety Pin.jpeg", "is_correct": False},
-                {"text": "toothpick", "image_path": r"./images/Q2 Toothpick.jpeg", "is_correct": False},
-                {"text": "keys", "image_path": r"./images/Q2 Keys.jpeg", "is_correct": False}],
+                {"text": "Floss", "image_path": r"./images/Q2 Floss.jpeg", "is_correct": True},
+                {"text": "Safety Pin", "image_path": r"./images/Q2 Safety Pin.jpeg", "is_correct": False},
+                {"text": "Toothpick", "image_path": r"./images/Q2 Toothpick.jpeg", "is_correct": False},
+                {"text": "Keys", "image_path": r"./images/Q2 Keys.jpeg", "is_correct": False},
+            ],
         },
         {
-           "question": " What should you use to protect your teeth when playing sports?",
-         "choices": [
-            {"text":"Helmet","image_path": r"./images/Q3 Helmet.jpeg", "is_correct": False},
-            {"text":"Mouth guard","image_path": r"./Q3 Mouth guard.jpeg", "is_correct": True},
-            {"text":"bubble gum","image_path": r"./Q3 images/Bubble gum.jpeg", "is_correct": False},
-            {"text":"mask","image_path": r"./images/Q3 Mask.jpeg", "is_correct": False}],
-    },
-    {
-        "question": "Which picture represents a healthy snack for your teeth?",
-        "choices": [
-            {"text":"Apple","image_path": r"./images/Q4 Apple.jpeg", "is_correct": False},
-            {"text":"Sandwich","image_path": r"./images/Q4 Sandwich.jpeg", "is_correct": True},
-            {"text":"Candies","image_path": r"./images/Q4 Candies.jpeg", "is_correct": False},
-            {"text":"Gummy bears","image_path": r"./images/Q4 Gummy bears.jpeg", "is_correct": False}],
-      
-    },
-    {
-        "question": "Which picture represents a healthy drink for your teeth?",
-        "choices": [
-            {"text":"Water","image_path": r"./images/Q5 Water.jpeg", "is_correct": True}, 
-            {"text":"Milk", "image_path": r"./images/Q5 Milk.jpeg", "is_correct": False},
-            {"text":"Soda", "image_path": r"./images/Q5 Soda.jpeg", "is_correct": False},
-            {"text":"Sugary Juice","image_path": r"./Q5 images/Sugary Juice.jpeg", "is_correct": False}],
-        
-    },
-     
-    {
-        "question": "Which picture shows a tooth with a cavity?",
-        "choices": [
-            {"text":"Yellow Tooth","image_path": r"./images/Q6 Yellow Tooth.jpeg", "is_correct": False},
-            {"text":"White Tooth","image_path": r"./images/Q6 White Tooth.jpeg", "is_correct": False},
-            {"text":"Brown Tooth","image_path": r"./images/Q6 Brown Tooth.jpeg", "is_correct": True}, 
-            {"text":"Broken Tooth","image_path": r"./images/Q6 Broken Tooth.jpeg", "is_correct":False}],
-       
-    },
-    {
-        "question": "Which picture represents a dental check-up?",
-        "choices": [
-            {"text": "Pic1","image_path": r"./images/Q8 Pic1.jpeg", "is_correct": False},
-            {"text": "Pic2","image_path": r"./images/Q8 Pic2.jpeg", "is_correct": False},
-            {"text": "Pic3","image_path": r"./images/Q8 Pic3.jpeg", "is_correct": True},
-            {"text": "Pic4","image_path": r"./images/Q8 Pic4.jpeg", "is_correct": False}],
-        
-    },
-    {
-        "question": "What should you avoid doing with your teeth?",
-        "choices": [
-            {"text":"Brushing","image_path": r"./images/Q9 brushing.jpeg", "is_correct": False},
-            {"text":"Flossing","image_path": r"./images/Q9 flossing.jpeg", "is_correct": False},
-            {"text":"Mouth rise","image_path": r"./images/Q9 mouth rise.jpeg", "is_correct": False},
-            {"text":"Opening Bottle","image_path": r"./images/Q9 opening bottle.jpeg", "is_correct": True}],
-       
-    },
-    {
-        "question": "What should you do when you first arrive at the dental clinic?",
-        "choices": [
-            {"text":"Run around and explore","image_path": r"./images/Q10 run around and explore.jpeg", "is_correct": False},
-            {"text":"Sit quietly and wait for your turn", "image_path": r"./images/Q10 sit quietly and wait for your turn.jpeg", "is_correct": True},
-            {"text":"Yell and make noise","image_path": r"./images/Q10 yell and make noise.jpeg", "is_correct": False},
-            {"text":"Cry","image_path": r"./images/Q10 cry.jpeg", "is_correct": False}],
-    
-    },
-    {
-           "question": " What might Dentist use to count your teeth during Check-up?",
-         "choices": [
-            {"text":"Pencil","image_path": r"./images/Q11-Pencil.jpeg", "is_correct": False},
-            {"text":"Toothbrush","image_path": r"./Q11-Toothbrush.jpeg", "is_correct": False},
-            {"text":"Mirror and a small tool","image_path": r"./images/Q11-Dental-mirror-and-tool.jpeg", "is_correct": True},
-            {"text":"Toothbrush","image_path": r"./Q11-Toothbrush.jpeg", "is_correct": False}],
+            "question": "What should you use to protect your teeth when playing sports?",
+            "choices": [
+                {"text": "Helmet", "image_path": r"./images/Q3 Helmet.jpeg", "is_correct": False},
+                {"text": "Mouth guard", "image_path": r"./Q3 Mouth guard.jpeg", "is_correct": True},
+                {"text": "Bubble gum", "image_path": r"./Q3 images/Bubble gum.jpeg", "is_correct": False},
+                {"text": "Mask", "image_path": r"./images/Q3 Mask.jpeg", "is_correct": False},
+            ],
         },
-    {
-        "question": "How should you behave while sitting in the dental chair?",
-        "choices": [
-            {"text":"Wiggle and squirm","image_path": r"./images/Q12 wiggle and squirm.jpeg", "is_correct": False},
-            {"text":"Sit still and listen to the dentist","image_path": r"./images/Q12 sit still.jpeg", "is_correct": True},
-            {"text":"Jump up and down","image_path": r"./images/Q12 Jump up and down.jpeg", "is_correct": False},
-            {"text":"Cry loudly","image_path": r"./images/Q12 cry loudly.jpeg", "is_correct": False}],
-        
-    },
-    {
-        "question": "What is the name of the machine that the dentist might use to take pictures of your teeth?",
-        "choices": [
-            {"text":"Camera","image_path": r"./images/Q14 camera.jpeg", "is_correct": False},
-            {"text":"Microscope","image_path": r"./images/Q14 Microscope.jpeg", "is_correct": False},
-            {"text":"X-ray machine","image_path": r"./images/Q14 Xray machine.jpeg", "is_correct": True},
-            {"text":"Phone","image_path": r"./images/Q14 phone.jpeg", "is_correct": False}],
-     
-    },
-    {
-        "question": "What can you do if you feel scared at the dental clinic?",
-        "choices": [
-            {"text":"Scream loudly", "image_path": r"./images/Q15 Scream loudly.jpeg", "is_correct": False},
-            {"text":"Talk to the dentist about your feelings","image_path": r"./images/Q15 Talk to dentist.jpeg", "is_correct": True},
-            {"text":"Hide under the chair","image_path": r"./images/Q15 Hiding under chair.jpeg", "is_correct": False},
-            {"text":"Bite dentist hand","image_path": r"./images/Q15 Bite dentist hand.jpeg", "is_correct": False}],                                                              ],
-        
-    },
-    {
-        "question": "What might the dentist use to fix a small hole in your tooth?",
-        "choices": [
-            {"text":"Glue", "image_path": r"./images/Q16 Glue.jpeg", "is_correct": False},
-            {"text":"Toothpaste","image_path": r"./images/Q16 Toothpaste.jpeg", "is_correct": False},
-            {"text": "Filling","image_path": r"./images/Q16 Filling.jpeg", "is_correct": True},
-             {"text":"Bubble gum","image_path": r"./images/Q16 Bubble gum.jpeg", "is_correct": False}],
-        
-    },
-    {
-        "question": "What should you do if you accidentally bite the dentist's fingers during a treatment?",
-        "choices": [
-            {"text":"Laugh loudly", "image_path": r"./images/Q17 Laugh loudly.jpeg", "is_correct": False},
-            {"text": "Apologize and try not to bite again", "image_path": r"./images/Q17 Apologize.jpeg", "is_correct": True},
-            {"text":" Bite again on purpose", "image_path": r"./images/Q17 Bite on purpose.jpeg", "is_correct": False},
-           {"text":"Cry loudly","image_path": r"./images/Q17 Cry loudly .jpeg", "is_correct": False}],
+        {
+            "question": "Which picture represents a healthy snack for your teeth?",
+            "choices": [
+                {"text": "Apple", "image_path": r"./images/Q4 Apple.jpeg", "is_correct": False},
+                {"text": "Sandwich", "image_path": r"./images/Q4 Sandwich.jpeg", "is_correct": True},
+                {"text": "Candies", "image_path": r"./images/Q4 Candies.jpeg", "is_correct": False},
+                {"text": "Gummy bears", "image_path": r"./images/Q4 Gummy bears.jpeg", "is_correct": False},
+            ],
+        },
+        {
+            "question": "Which picture represents a healthy drink for your teeth?",
+            "choices": [
+                {"text": "Water", "image_path": r"./images/Q5 Water.jpeg", "is_correct": True},
+                {"text": "Milk", "image_path": r"./images/Q5 Milk.jpeg", "is_correct": False},
+                {"text": "Soda", "image_path": r"./images/Q5 Soda.jpeg", "is_correct": False},
+                {"text": "Sugary Juice", "image_path": r"./Q5 images/Sugary Juice.jpeg", "is_correct": False},
+            ],
+        },
+        {
+            "question": "Which picture shows a tooth with a cavity?",
+            "choices": [
+                {"text": "Yellow Tooth", "image_path": r"./images/Q6 Yellow Tooth.jpeg", "is_correct": False},
+                {"text": "White Tooth", "image_path": r"./images/Q6 White Tooth.jpeg", "is_correct": False},
+                {"text": "Brown Tooth", "image_path": r"./images/Q6 Brown Tooth.jpeg", "is_correct": True},
+                {"text": "Broken Tooth", "image_path": r"./images/Q6 Broken Tooth.jpeg", "is_correct": False},
+            ],
+        },
+        {
+            "question": "Which picture shows a toothbrushing technique?",
+            "choices": [
+                {"text": "Up and Down", "image_path": r"./images/Q7 up and down.jpeg", "is_correct": False},
+                {"text": "Round and Round", "image_path": r"./images/Q7 round and round.jpeg", "is_correct": False},
+                {"text": "Back and Forth", "image_path": r"./images/Q7 back and forth.jpeg", "is_correct": False},
+                {"text": "Combination of all", "image_path": r"./images/Q7 Combination of all.jpeg", "is_correct": True},
+            ],
+        },
+        {
+            "question": "Which picture represents a dental check-up?",
+            "choices": [
+                {"text": "Pic1", "image_path": r"./images/Q8 Pic1.jpeg", "is_correct": False},
+                {"text": "Pic2", "image_path": r"./images/Q8 Pic2.jpeg", "is_correct": False},
+                {"text": "Pic3", "image_path": r"./images/Q8 Pic3.jpeg", "is_correct": True},
+                {"text": "Pic4", "image_path": r"./images/Q8 Pic4.jpeg", "is_correct": False},
+            ],
+        },
+        {
+            "question": "What should you avoid doing with your teeth?",
+            "choices": [
+                {"text": "Brushing", "image_path": r"./images/Q9 brushing.jpeg", "is_correct": False},
+                {"text": "Flossing", "image_path": r"./images/Q9 flossing.jpeg", "is_correct": False},
+                {"text": "Mouth rinse", "image_path": r"./images/Q9 mouth rinse.jpeg", "is_correct": False},
+                {"text": "Opening Bottle", "image_path": r"./images/Q9 opening bottle.jpeg", "is_correct": True},
+            ],
+        },
+        {
+            "question": "What should you do when you first arrive at the dental clinic?",
+            "choices": [
+                {"text": "Run around and explore", "image_path": r"./images/Q10 run around and explore.jpeg", "is_correct": False},
+                {"text": "Sit quietly and wait for your turn", "image_path": r"./images/Q10 sit quietly and wait for your turn.jpeg", "is_correct": True},
+                {"text": "Yell and make noise", "image_path": r"./images/Q10 yell and make noise.jpeg", "is_correct": False},
+                {"text": "Cry", "image_path": r"./images/Q10 cry.jpeg", "is_correct": False},
+            ],
+        },
+        {
+            "question": "What might a Dentist use to count your teeth during a Check-up?",
+            "choices": [
+                {"text": "Pencil", "image_path": r"./images/Q11-Pencil.jpeg", "is_correct": False},
+                {"text": "Toothbrush", "image_path": r"./Q11-Toothbrush.jpeg", "is_correct": False},
+                {"text": "Mirror and a small tool", "image_path": r"./images/Q11-Dental-mirror-and-tool.jpeg", "is_correct": True},
+                {"text": "Toothbrush", "image_path": r"./Q11-Toothbrush.jpeg", "is_correct": False},
+            ],
+        },
+        {
+            "question": "How should you behave while sitting in the dental chair?",
+            "choices": [
+                {"text": "Wiggle and squirm", "image_path": r"./images/Q12 wiggle and squirm.jpeg", "is_correct": False},
+                {"text": "Sit still and listen to the dentist", "image_path": r"./images/Q12 sit still.jpeg", "is_correct": True},
+                {"text": "Jump up and down", "image_path": r"./images/Q12 Jump up and down.jpeg", "is_correct": False},
+                {"text": "Cry loudly", "image_path": r"./images/Q12 cry loudly.jpeg", "is_correct": False},
+            ],
+        },
+        {
+            "question": "What can you do to be brave during a dental treatment?",
+            "choices": [
+                {"text": "Cry loudly", "image_path": r"./images/Q13 Cry loudly.jpeg", "is_correct": False},
+                {"text": "Hold the dentist's hand and take deep breaths", "image_path": r"./images/Q13 Hold dentist hand.jpeg", "is_correct": True},
+                {"text": "Refuse to cooperate", "image_path": r"./images/Q13 Refuse to cooperate.jpeg", "is_correct": False},
+                {"text": "Hide under the table", "image_path": r"./images/Q13 Hide under table.jpeg", "is_correct": False},
+            ],
+        },
+        {
+            "question": "What is the name of the machine that the dentist might use to take pictures of your teeth?",
+            "choices": [
+                {"text": "Camera", "image_path": r"./images/Q14 camera.jpeg", "is_correct": False},
+                {"text": "Microscope", "image_path": r"./images/Q14 Microscope.jpeg", "is_correct": False},
+                {"text": "X-ray machine", "image_path": r"./images/Q14 Xray machine.jpeg", "is_correct": True},
+                {"text": "Phone", "image_path": r"./images/Q14 phone.jpeg", "is_correct": False},
+            ],
+        },
+        {
+            "question": "What can you do if you feel scared at the dental clinic?",
+            "choices": [
+                {"text": "Scream loudly", "image_path": r"./images/Q15 Scream loudly.jpeg", "is_correct": False},
+                {"text": "Talk to the dentist about your feelings", "image_path": r"./images/Q15 Talk to dentist.jpeg", "is_correct": True},
+                {"text": "Hide under the chair", "image_path": r"./images/Q15 Hiding under chair.jpeg", "is_correct": False},
+                {"text": "Bite dentist hand", "image_path": r"./images/Q15 Bite dentist hand.jpeg", "is_correct": False},
+            ],
+        },
+        {
+            "question": "What might the dentist use to fix a small hole in your tooth?",
+            "choices": [
+                {"text": "Glue", "image_path": r"./images/Q16 Glue.jpeg", "is_correct": False},
+                {"text": "Toothpaste", "image_path": r"./images/Q16 Toothpaste.jpeg", "is_correct": False},
+                {"text": "Filling", "image_path": r"./images/Q16 Filling.jpeg", "is_correct": True},
+                {"text": "Bubble gum", "image_path": r"./images/Q16 Bubble gum.jpeg", "is_correct": False},
+            ],
+        },
+        {
+            "question": "What should you do if you accidentally bite the dentist's fingers during a treatment?",
+            "choices": [
+                {"text": "Laugh loudly", "image_path": r"./images/Q17 Laugh loudly.jpeg", "is_correct": False},
+                {"text": "Apologize and try not to bite again", "image_path": r"./images/Q17 Apologize.jpeg", "is_correct": True},
+                {"text": "Bite again on purpose", "image_path": r"./images/Q17 Bite on purpose.jpeg", "is_correct": False},
+                {"text": "Cry loudly", "image_path": r"./images/Q17 Cry loudly .jpeg", "is_correct": False},
+            ],
+        },
+        {
+            "question": "Why is it important to be honest with the dentist?",
+            "choices": [
+                {"text":"To tell funny stories","image_path": r"./images/Q18-Funny-stories.jpeg", "is_correct": False},
+                {"text":"To keep secrets","image_path": r"./Q18-Keep-secret.jpeg", "is_correct": False},
+                {"text":"So the dentist can help you better","image_path": r"./images/Q18 Dentist helping.jpeg", "is_correct": True},
+                {"text":"Avoid Punishment","image_path": r"./images/Q18-Avoid punishment.jpeg", "is_correct": False}
+            ],
       
-    },
-    {
-        "question": "Why is it important to be honest with the dentist?",
-        "choices": [
-            {"text":"To tell funny stories","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"To keep secrets","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"So the dentist can help you better","image_path": r"./images/brush.jpeg", "is_correct": True},
-            {"text":"None of the above","image_path": r"./images/brush.jpeg", "is_correct": False}],
-      
-    },
-    {
-        "question": "How should you behave in the dental clinic's restroom?",
-        "choices": [
-            {"text":"Flush the toilet and wash your hands", "image_path": r"./images/brush.jpeg", "is_correct": True},
-            {"text":"Skip washing hands","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Make a mess","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Argue with dentist","image_path": r"./images/brush.jpeg", "is_correct": False}],
+       },
+       {
+            "question": "How should you behave in the dental clinic's restroom?",
+            "choices": [
+                {"text":"Flush the toilet and wash your hands", "image_path": r"./Q19-Flush-and-wash-hands.jpeg", "is_correct": True},
+                {"text":"Skip washing hands","image_path": r"./Q19-Skip-washing-hands.jpeg", "is_correct": False},
+                {"text":"Make a mess","image_path": r"./Q19-Make-mess.jpeg", "is_correct": False},
+                {"text":"Spill soap","image_path": r"./Q19-Spill saop.jpeg", "is_correct": False}
+            ],
        
-    },
-    {
-        "question": "How should you brush your teeth before going to the dentist?",
-        "choices": [
-            {"text":"Quickly and without toothpaste","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":" Thoroughly with toothpaste","image_path": r"./images/brush.jpeg", "is_correct": True},
-            {"text":"No need to brush your teeth before dental visit","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"None of the above","image_path": r"./images/brush.jpeg", "is_correct": False}],
+       },
+       {
+            "question": "How should you brush your teeth before going to the dentist?",
+            "choices": [
+                {"text":"Quickly and without toothpaste","image_path": r"./images/Q20-Without-toothpaste.jpeg", "is_correct": False},
+                {"text":" Thoroughly with toothpaste","image_path": r"./images/Q20-Thoroughly-with-toothpaste.jpeg", "is_correct": True},
+                {"text":"No need to brush your teeth before dental visit","image_path": r"./images/Q20-No-brushing-teeth.jpeg", "is_correct": False},
+                {"text":"Just use Mouthwash","image_path": r"./Q20-Mouthwash.jpeg", "is_correct": False}
+            ],
         
-    },
+       },
     # Add more questions here
 ]
 
