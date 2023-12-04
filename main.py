@@ -129,7 +129,7 @@ if __name__ == "__main__":
             ],
         },
         {     
-          "question": " What is used to clean between your teeth?",
+          "question": " What is used to clean the area between your teeth?",
             "choices": [
                 {"text": "floss", "image_path": r"./images/Toothbrush.jpeg", "is_correct": True},
                 {"text": "safety pin", "image_path": r"./images/Safety Pin.jpeg", "is_correct": False},
@@ -164,39 +164,39 @@ if __name__ == "__main__":
     },
      
     {
+        "question": "Which picture shows a tooth with a cavity?",
+        "choices": [
+            {"text":"Yellow Tooth","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text":"White Tooth","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text":"Brown Tooth","image_path": r"./images/brush.jpeg", "is_correct": True}, 
+            {"text":"Broken Tooth","image_path": r"./images/brush.jpeg", "is_correct":False}],
+       
+    },
+    {
+        "question": "Which picture represents a dental check-up?",
+        "choices": [
+            {"text": "Pic1","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text": "Pic2","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text": "Pic3","image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"text": "Pic4","image_path": r"./images/brush.jpeg", "is_correct": False}],
+        
+    },
+    {
         "question": "What should you avoid doing with your teeth?",
         "choices": [
-            {"text":"brushing","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"flossing","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"mouth rinse","image_path": r"./images/brush.jpeg", "is_correct": False}, 
-            {"text":"opening bottle","image_path": r"./images/brush.jpeg", "is_correct":True}],
+            {"text":"Brushing","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text":"Flossing","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text":"Mouth rise","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text":"Opening Bottle","image_path": r"./images/brush.jpeg", "is_correct": True}],
        
     },
     {
         "question": "What should you do when you first arrive at the dental clinic?",
         "choices": [
-            {"text": "Run around and explore","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text": "Sit quietly and wait for your turn","image_path": r"./images/brush.jpeg", "is_correct": True},
-            {"text": "Yell and make noise","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text": "None of the above","image_path": r"./images/brush.jpeg", "is_correct": False}],
-        
-    },
-    {
-        "question": "What might the dentist use to count your teeth during a check-up?",
-        "choices": [
-            {"text":"Pencil","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Toothbrush","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Mirror and a small tool","image_path": r"./images/brush.jpeg", "is_correct": True},
-            {"text":"Toy","image_path": r"./images/brush.jpeg", "is_correct": False}],
-       
-    },
-    {
-        "question": "How should you behave while sitting in the dental chair?",
-        "choices": [
-            {"text":"Wiggle and squirm","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Sit still and listen to the dentist", "image_path": r"./images/brush.jpeg", "is_correct": True},
-            {"text":"Jump up and down","image_path": r"./images/brush.jpeg", "is_correct": False},
-            {"text":"Shout and walk around","image_path": r"./images/brush.jpeg", "is_correct": False}],
+            {"text":"Run around and explore","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text":"Sit quietly and wait fir your turn", "image_path": r"./images/brush.jpeg", "is_correct": True},
+            {"text":"Yell and make noise","image_path": r"./images/brush.jpeg", "is_correct": False},
+            {"text":"Cry","image_path": r"./images/brush.jpeg", "is_correct": False}],
     
     },
     {
